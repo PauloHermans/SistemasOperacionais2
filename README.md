@@ -4,6 +4,8 @@ Trabalho apresentado como requisito avaliativo para a disciplina de Sistemas Ope
 
 Trabalho M2 - Análise de Page Fault. Alunos: Larissa de Souza, Paulo Hermans e Vinícius Schütz Piva . Data: 28/05/2024.
 
+Link para acesso ao relatório: https://docs.google.com/document/d/1rm3XDncF9BXFDeVu1JYQ2QIrlLKXhIuP/edit?usp=sharing&ouid=107006664367478057567&rtpof=true&sd=true
+
 # Instruções de compilação
 
 ### Linux
