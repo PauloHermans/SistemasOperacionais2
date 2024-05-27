@@ -43,7 +43,7 @@ A dealocação de memória que foi utilizada é mais demorada do que a dealocaç
 | 0512MiB : 10 | ~16301 | 0 | ~0.1ms | ~0.1ms | ~230.0ms | ~2.975s | ~12.5ms |
 | 1024MiB : 10 | ~21677 | 0 | ~0.1ms | ~0.1ms | ~460.6ms | ~5.94s | ~23.8ms |
 | 2048MiB : 10 | ~32430 | 0 | ~0.1ms | ~0.1ms | ~919.6ms | ~11.88s | ~48.1ms |
-| 4096MiB : 10 | Veja Abaixo | ~0.1ms | ~0.1ms | ~1.9s | ~23.7s | ~53.9ms |
+| 4096MiB : 10 | Veja Abaixo | 0 | ~0.1ms | ~0.1ms | ~1.9s | ~23.7s | ~53.9ms |
 | 8128MiB : 01 | 4531056 | 209 | >=0ms | >=0ms | ~327.7s | ~273.8s | ~259.5ms |
 
 O teste de 4096MiB não apresentou um MINFL constante perante multiplas execuções, com o valor decrescendo à cada execução; segue a tabela:
@@ -78,7 +78,7 @@ Os timings são parecidos com o do ambiente leve, porém com as seguintes difere
 # Dados - Ambiente Pesado
 | Memória : Iterações | MINFL | MAJFL | Allocate T | Delete T | Write T | Read T | Delete w/ Write T |
 | ------------------- | ----- | ----- | ---------- | -------- | ------- | ------ | ----------------- |
-| 0032MiB : 10 | ~11261 | ~0.2ms | ~0.1ms | ~31.4ms | ~192.5ms | ~3ms |
+| 0032MiB : 10 | ~11261 | 0 | ~0.2ms | ~0.1ms | ~31.4ms | ~192.5ms | ~3ms |
 | 0128MiB : 10 | ~12270 | 0 | ~0.2ms | ~0.1ms | ~125ms | ~763.4ms | ~7.5ms |
 | 0512MiB : 10 | Veja Abaixo | 0 | ~0.2ms | ~0.1ms | ~500ms | ~3.08s | ~45ms |
 | 1024MiB : 10 | 21678 | 0 | ~0.2ms | ~0.1ms | ~764ms | ~6.1s | ~38ms |
