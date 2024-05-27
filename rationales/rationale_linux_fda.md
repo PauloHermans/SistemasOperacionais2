@@ -12,15 +12,15 @@ Os benchmarks foram realizados em um computador de 8GiB RAM DDR3, processador Co
 
 Os testes foram executados cinco vezes cada.
 
-Para os testes pesados (demarcadosde `H`), foi aberto uma aba no Firefox tocando música, e usado o `memc 6096 1000` para aumentar o uso de RAM do sistema.
+Para os testes pesados (demarcados  de `H`), foi aberto uma aba no Firefox tocando música, e usado o `memc 6096 1000` para aumentar o uso de RAM do sistema.
 
 # Resultados & Dados
 
 Em geral, o tamanho da imagem e a quantidade de iterações ambas aumentam a quantidade de minor faults. O algoritmo do fda em sí parece resiliente a pressão de memória e tal não aumentou muito a quantidade de major faults. O Lena 128, em destaque, parece ser mais vulnerável à major faults.
 
-Enquanto aumentar a quantidade de iterações automenta a quantidade de minor faults, a proporção em sí de `minfl / it` diminui.
+Enquanto aumentar a quantidade de iterações aumenta a quantidade de minor faults, a proporção em sí de `minfl / it` diminui.
 
-| Teste      | MINFL     | MAJFL | `it/minfl` |
+| Teste      | MINFL     | MAJFL | `minfl/it` |
 | ---------- | --------- | ----- | ---------- |
 | Lena 16    | ~757      |  0    | 48.9375    |
 | Lena 128   | ~4349.4   | ~0.2  | 34.3437    |
