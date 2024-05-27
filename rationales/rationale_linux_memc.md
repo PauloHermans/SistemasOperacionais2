@@ -36,37 +36,25 @@ A dealocação de memória que foi utilizada é mais demorada do que a dealocaç
 
 # Dados - Ambiente Leve
 
-Memória : Iterações | MINFL | MAJFL | Allocate T | Delete T | Write T | Read T | Delete w/ Write T
--
-0032MiB : 10 | ~11261 | 0 | ~0.1ms | ~0.1ms | ~13.9ms | ~185.7ms | ~1.6ms
--
-0128MiB : 10 | ~12270 | 0 | ~0.1ms | ~0.1ms | ~57.7ms | ~742.5ms | ~4ms
--
-0512MiB : 10 | ~16301 | 0 | ~0.1ms | ~0.1ms | ~230.0ms | ~2.975s | ~12.5ms
--
-1024MiB : 10 | ~21677 | 0 | ~0.1ms | ~0.1ms | ~460.6ms | ~5.94s | ~23.8ms
--
-2048MiB : 10 | ~32430 | 0 | ~0.1ms | ~0.1ms | ~919.6ms | ~11.88s | ~48.1ms
--
-4096MiB : 10 | Veja Abaixo | ~0.1ms | ~0.1ms | ~1.9s | ~23.7s | ~53.9ms
--
-8128MiB : 01 | 4531056 | 209 | >=0ms | >=0ms | ~327.7s | ~273.8s | ~259.5ms
--
+| Memória : Iterações | MINFL | MAJFL | Allocate T | Delete T | Write T | Read T | Delete w/ Write T |
+| ------------------- | ----- | ----- | ---------- | -------- | ------- | ------ | ----------------- |
+| 0032MiB : 10 | ~11261 | 0 | ~0.1ms | ~0.1ms | ~13.9ms | ~185.7ms | ~1.6ms  |
+| 0128MiB : 10 | ~12270 | 0 | ~0.1ms | ~0.1ms | ~57.7ms | ~742.5ms | ~4ms    |
+| 0512MiB : 10 | ~16301 | 0 | ~0.1ms | ~0.1ms | ~230.0ms | ~2.975s | ~12.5ms |
+| 1024MiB : 10 | ~21677 | 0 | ~0.1ms | ~0.1ms | ~460.6ms | ~5.94s | ~23.8ms |
+| 2048MiB : 10 | ~32430 | 0 | ~0.1ms | ~0.1ms | ~919.6ms | ~11.88s | ~48.1ms |
+| 4096MiB : 10 | Veja Abaixo | ~0.1ms | ~0.1ms | ~1.9s | ~23.7s | ~53.9ms |
+| 8128MiB : 01 | 4531056 | 209 | >=0ms | >=0ms | ~327.7s | ~273.8s | ~259.5ms |
 
 O teste de 4096MiB não apresentou um MINFL constante perante multiplas execuções, com o valor decrescendo à cada execução; segue a tabela:
 
-Nº | MINFL
--
-1 | 3742843
--
-2 | 2756101
--
-3 | 2596669
--
-4 | 1893533
--
-5 | 1880759
--
+| Nº | MINFL |
+| -- | ----- |
+| 1 | 3742843 |
+| 2 | 2756101 |
+| 3 | 2596669 |
+| 4 | 1893533 |
+| 5 | 1880759 |
 
 # Resultados - Ambiente Pesado
 
@@ -88,32 +76,21 @@ Os timings são parecidos com o do ambiente leve, porém com as seguintes difere
 
 
 # Dados - Ambiente Pesado
-Memória : Iterações | MINFL | MAJFL | Allocate T | Delete T | Write T | Read T | Delete w/ Write T
--
-0032MiB : 10 | ~11261 | ~0.2ms | ~0.1ms | ~31.4ms | ~192.5ms | ~3ms
--
-0128MiB : 10 | ~12270 | 0 | ~0.2ms | ~0.1ms | ~125ms | ~763.4ms | ~7.5ms
--
-0512MiB : 10 | Veja Abaixo | 0 | ~0.2ms | ~0.1ms | ~500ms | ~3.08s | ~45ms
--
-1024MiB : 10 | 21678 | 0 | ~0.2ms | ~0.1ms | ~764ms | ~6.1s | ~38ms
--
-2048MiB : 10 | Veja Abaixo | Veja Abaixo | ~0.1ms | ~0.1ms | ~1.7s | ~12s | ~33ms
--
-3072MiB : 01 | 1158707 | 36 | ~0.1ms | >=0ms | ~78s | ~1.9s | ~102.8ms
--
+| Memória : Iterações | MINFL | MAJFL | Allocate T | Delete T | Write T | Read T | Delete w/ Write T |
+| ------------------- | ----- | ----- | ---------- | -------- | ------- | ------ | ----------------- |
+| 0032MiB : 10 | ~11261 | ~0.2ms | ~0.1ms | ~31.4ms | ~192.5ms | ~3ms |
+| 0128MiB : 10 | ~12270 | 0 | ~0.2ms | ~0.1ms | ~125ms | ~763.4ms | ~7.5ms |
+| 0512MiB : 10 | Veja Abaixo | 0 | ~0.2ms | ~0.1ms | ~500ms | ~3.08s | ~45ms |
+| 1024MiB : 10 | 21678 | 0 | ~0.2ms | ~0.1ms | ~764ms | ~6.1s | ~38ms |
+| 2048MiB : 10 | Veja Abaixo | Veja Abaixo | ~0.1ms | ~0.1ms | ~1.7s | ~12s | ~33ms |
+| 3072MiB : 01 | 1158707 | 36 | ~0.1ms | >=0ms | ~78s | ~1.9s | ~102.8ms |
 
 Os teste de 512MiB e 2048MiB não tiveram um MINFL constante; 2048MiB teve MAJFL:
 
-Nº| MINFL 512 | MINFL 2048 | MAJFL 2048
--
-1 | 244209 | 2287722 | 6
--
-2 | 223767 | 1820418 | 8
--
-3 | 34201 | 1753478 | 0
--
-4 | 16302 | 1599667 | 0
--
-5 | 16303 | 1560322 | 0
--
+| Nº | MINFL 512 | MINFL 2048 | MAJFL 2048 |
+| -- | --------- | ---------- | ---------- |
+| 1 | 244209 | 2287722 | 6 |
+| 2 | 223767 | 1820418 | 8 |
+| 3 | 34201 | 1753478 | 0 |
+| 4 | 16302 | 1599667 | 0 |
+| 5 | 16303 | 1560322 | 0 |
