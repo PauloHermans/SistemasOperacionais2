@@ -1,0 +1,44 @@
+ MINFL  MAJFL CMD
+ 11260      0 ./memc 32 10
+0.0002 s to allocate	32 MB 10 times.
+0.0001 s to allocate	32 MB 10 times (0.0000 s to delete).
+0.0303 s to write	32 MB 10 times.
+0.1904 s to read	32 MB 10 times, sum = 83886080.
+0.0831 s to all&wrt 	32 MB 10 times (0.0030 s to delete).
+0.1973 s to all&rd 	32 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 11263      0 ./memc 32 10
+0.0002 s to allocate	32 MB 10 times.
+0.0001 s to allocate	32 MB 10 times (0.0001 s to delete).
+0.0357 s to write	32 MB 10 times.
+0.1925 s to read	32 MB 10 times, sum = 83886080.
+0.0803 s to all&wrt 	32 MB 10 times (0.0032 s to delete).
+0.1967 s to all&rd 	32 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 11261      0 ./memc 32 10
+0.0002 s to allocate	32 MB 10 times.
+0.0001 s to allocate	32 MB 10 times (0.0000 s to delete).
+0.0317 s to write	32 MB 10 times.
+0.1921 s to read	32 MB 10 times, sum = 83886080.
+0.0802 s to all&wrt 	32 MB 10 times (0.0030 s to delete).
+0.1963 s to all&rd 	32 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 11262      0 ./memc 32 10
+0.0003 s to allocate	32 MB 10 times.
+0.0002 s to allocate	32 MB 10 times (0.0001 s to delete).
+0.0309 s to write	32 MB 10 times.
+0.1928 s to read	32 MB 10 times, sum = 83886080.
+0.0838 s to all&wrt 	32 MB 10 times (0.0032 s to delete).
+0.1973 s to all&rd 	32 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 11261      0 ./memc 32 10
+0.0002 s to allocate	32 MB 10 times.
+0.0001 s to allocate	32 MB 10 times (0.0000 s to delete).
+0.0314 s to write	32 MB 10 times.
+0.1933 s to read	32 MB 10 times, sum = 83886080.
+0.0819 s to all&wrt 	32 MB 10 times (0.0031 s to delete).
+0.2015 s to all&rd 	32 MB 10 times, sum = 0.

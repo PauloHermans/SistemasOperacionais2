@@ -1,0 +1,44 @@
+ MINFL  MAJFL CMD
+ 21677      0 ./memc 1024 10
+0.0001 s to allocate	1024 MB 10 times.
+0.0001 s to allocate	1024 MB 10 times (0.0001 s to delete).
+0.4606 s to write	1024 MB 10 times.
+5.9423 s to read	1024 MB 10 times, sum = -1610612736.
+1.3685 s to all&wrt 	1024 MB 10 times (0.0237 s to delete).
+5.9291 s to all&rd 	1024 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 21677      0 ./memc 1024 10
+0.0001 s to allocate	1024 MB 10 times.
+0.0001 s to allocate	1024 MB 10 times (0.0001 s to delete).
+0.4621 s to write	1024 MB 10 times.
+5.9375 s to read	1024 MB 10 times, sum = -1610612736.
+1.3725 s to all&wrt 	1024 MB 10 times (0.0238 s to delete).
+5.9185 s to all&rd 	1024 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 21678      0 ./memc 1024 10
+0.0001 s to allocate	1024 MB 10 times.
+0.0001 s to allocate	1024 MB 10 times (0.0001 s to delete).
+0.4592 s to write	1024 MB 10 times.
+5.9394 s to read	1024 MB 10 times, sum = -1610612736.
+1.3679 s to all&wrt 	1024 MB 10 times (0.0240 s to delete).
+5.9265 s to all&rd 	1024 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 21679      0 ./memc 1024 10
+0.0001 s to allocate	1024 MB 10 times.
+0.0001 s to allocate	1024 MB 10 times (0.0001 s to delete).
+0.4585 s to write	1024 MB 10 times.
+5.9418 s to read	1024 MB 10 times, sum = -1610612736.
+1.3668 s to all&wrt 	1024 MB 10 times (0.0238 s to delete).
+5.9286 s to all&rd 	1024 MB 10 times, sum = 0.
+
+ MINFL  MAJFL CMD
+ 21678      0 ./memc 1024 10
+0.0001 s to allocate	1024 MB 10 times.
+0.0001 s to allocate	1024 MB 10 times (0.0001 s to delete).
+0.4618 s to write	1024 MB 10 times.
+5.9451 s to read	1024 MB 10 times, sum = -1610612736.
+1.3697 s to all&wrt 	1024 MB 10 times (0.0237 s to delete).
+5.9228 s to all&rd 	1024 MB 10 times, sum = 0.

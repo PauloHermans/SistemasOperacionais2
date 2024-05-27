@@ -1,0 +1,8 @@
+ MINFL  MAJFL CMD
+1158707    36 ./memc 3072 1
+0.0001 s to allocate	3072 MB 1 times.
+0.0000 s to allocate	3072 MB 1 times (0.0000 s to delete).
+78.9016 s to write	3072 MB 1 times.
+1.9215 s to read	3072 MB 1 times, sum = 805306368.
+1.2936 s to all&wrt 	3072 MB 1 times (0.1028 s to delete).
+1.8471 s to all&rd 	3072 MB 1 times, sum = 0.
