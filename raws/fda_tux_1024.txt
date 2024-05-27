@@ -1,0 +1,7 @@
+ MINFL  MAJFL CMD
+183726      0 ./fda 02_tux.pgm /dev/null 1024
+183724      0 ./fda 02_tux.pgm /dev/null 1024
+183725      0 ./fda 02_tux.pgm /dev/null 1024
+183725      0 ./fda 02_tux.pgm /dev/null 1024
+183725      0 ./fda 02_tux.pgm /dev/null 1024
+183725 ~

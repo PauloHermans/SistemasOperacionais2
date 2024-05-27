@@ -1,0 +1,7 @@
+ MINFL  MAJFL CMD
+  4345      1 ./fda 01_lena_noise.pgm /dev/null 128
+  4352      0 ./fda 01_lena_noise.pgm /dev/null 128
+  4348      0 ./fda 01_lena_noise.pgm /dev/null 128
+  4356      0 ./fda 01_lena_noise.pgm /dev/null 128
+  4346      0 ./fda 01_lena_noise.pgm /dev/null 128
+~ 4349.4
