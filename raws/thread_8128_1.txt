@@ -1,0 +1,2 @@
+ MINFL  MAJFL CMD
+3075064    33 ./thread 8128 1

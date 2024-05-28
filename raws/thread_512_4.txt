@@ -1,0 +1,7 @@
+ MINFL  MAJFL CMD
+   888      0 ./thread 512 4
+   902      0 ./thread 512 4
+   902      0 ./thread 512 4
+   900      0 ./thread 512 4
+   902      0 ./thread 512 4
+~  898.8

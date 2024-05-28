@@ -1,0 +1,2 @@
+cd  MINFL  MAJFL CMD
+1734613   371 ./thread 4096 1
