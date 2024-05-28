@@ -1,4 +1,5 @@
 *.exe
+thread
 fda
 memc
 *.swp

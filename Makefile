@@ -15,3 +15,6 @@ memc: memory_cost.cpp
 
 fda: fda_lib/diff2d.c fda_lib/diff2d.h fda_lib/pgmfiles.c fda_lib/pgmfiles.h fda_lib/pgmtolist.c fda.c
 	$(CC) $^ -o $@ -lm
+
+thread: thread.c
+	$(CC) -std=c11 -Wall -Wextra -o $@ $^ -lpthread -lrt
